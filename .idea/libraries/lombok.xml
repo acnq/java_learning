@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lombok">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ch2sql/day03_db/lib/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ch2sql/day03_db/lib/mysql-connector-java-8.0.25.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ch2sql/day03_db/lib/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ch2sql/day03_db/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ch2sql/day03_db/lib/druid-1.1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ch2sql/day03_db/lib/commons-dbutils-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

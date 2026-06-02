@@ -5,6 +5,10 @@
       <module fileurl="file://$PROJECT_DIR$/ch1javase/ch1javase.iml" filepath="$PROJECT_DIR$/ch1javase/ch1javase.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch2sql/ch2sql.iml" filepath="$PROJECT_DIR$/ch2sql/ch2sql.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch2sql/day01_jdbc/day01_jdbc.iml" filepath="$PROJECT_DIR$/ch2sql/day01_jdbc/day01_jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch2sql/day02_dbutils/day02_dbutils.iml" filepath="$PROJECT_DIR$/ch2sql/day02_dbutils/day02_dbutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch2sql/day03_db/day03_db.iml" filepath="$PROJECT_DIR$/ch2sql/day03_db/day03_db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch2sql/day04_transfer/day04_transfer.iml" filepath="$PROJECT_DIR$/ch2sql/day04_transfer/day04_transfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch2sql/day04_transfer2/day04_transfer2.iml" filepath="$PROJECT_DIR$/ch2sql/day04_transfer2/day04_transfer2.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1javase/day1/day1.iml" filepath="$PROJECT_DIR$/ch1javase/day1/day1.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1javase/day10/day10.iml" filepath="$PROJECT_DIR$/ch1javase/day10/day10.iml" />
       <module fileurl="file://$PROJECT_DIR$/ch1javase/day11/day11.iml" filepath="$PROJECT_DIR$/ch1javase/day11/day11.iml" />
