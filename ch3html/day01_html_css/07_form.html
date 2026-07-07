@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form 表单</title>
+</head>
+<body>
+<form action="#" method="get">
+  <!-- 
+  1.文本输入框:<input type = "text"/>
+    type:input类型 text->普通文本输入框
+
+    placeholder属性:输入框的小提示
+
+    name:设置name属性有利于将来将输入框中的数据提交给服务器,name和value属性是绑死的,
+              可以将name的属性值看成是key,将value的属性值看成是value
+              将来表单提交给服务器之后,在服务器上可以根据name的属性值获取到value值
+              而value值才是服务器想要得到的数据
+
+    value:输入框的内容 -> 真正提交给服务器的数据
+          一般value的属性值可以空着,将来我们直接在输入框中输入数据,就是在给value属性赋值
+
+  2.比如:name属性值设置成username   value属性值为"tom"->提交给服务器之后
+      username = "tom"
+  -->
+  用户名:<input type="text" name="username" value="" placeholder="请输入用户名"/><br/>
+    
+  <!--
+    1.密码框:<input type = "password"/>
+
+      type:input类型 password-> 密码框
+
+      placeholder属性:输入框的小提示
+
+      name:设置name属性有利于将来将输入框中的数据提交给服务器,name和value属性是绑死的,
+            可以将name的属性值看成是key,将value的属性值看成是value
+            将来表单提交给服务器之后,在服务器上可以根据name的属性值获取到value值
+            而value值才是服务器想要得到的数据
+
+      value:输入框的内容 -> 真正提交给服务器的数据
+            一般value的属性值可以空着,将来我们直接在输入框中输入数据,就是在给value属性赋值
+
+    2.注意:在页面上不要直接打空格
+          需要用转义字符:  &nbsp;
+  -->
+  密&nbsp;&nbsp;&nbsp;码:<input type="password" name="password" value="" placeholder="请输入密码" /><br/>
+
+  <!--
+    1.单选框:<input type = "radio"/>
+
+      checked="checked" 默认选中属性, 需要注意: 属性很特别,属性名和属性值一样,固定写法
+      value:提交给服务器端的数据
+      name:如果多个单选设置成一样的name属性值,就会互斥
+
+    2.注意:单选应该是互斥的,如果想让两个单选互斥,需要将两个单选变成一组控件,可以使用name,给两个单选的name属性值
+        设置成一样的
+  -->
+  性&nbsp;&nbsp;&nbsp;别:
+  <input type="radio" name="gender" value="男"/>男
+  <input type="radio" name="gender" value="女"/>女<br/>
+  <!--
+    1.复选框:<input type = "checkbox"/>
+      checked="checked" 默认选中属性, 需要注意: 属性很特别,属性名和属性值一样,固定写法
+      value:提交给服务器端的数据
+      name:如果多个复选设置成一样的name属性值,那么就是一组数据
+  -->
+  爱&nbsp;&nbsp;&nbsp;好:
+  <input type="checkbox" name="hobby" value="抽烟">抽烟
+  <input type="checkbox" name="hobby" value="喝酒">喝酒<br/>
+
+  <!--
+    1.文件域: 属性
+      type="file"   文件上传服务器
+  -->
+  上&nbsp;&nbsp;&nbsp;传:<input type="file"/><br/>
+
+  <!--
+    1.普通按钮:
+      type = "button"
+    2.注意:普通按钮都是和js事件绑定使用
+      BOM  DOM
+  -->
+  <input type="button" value="普通按钮"/>
+
+  <!--
+    1.重置按钮:
+      type="reset"
+  -->
+  <input type="reset" value="重置按钮"/>
+
+  <!--
+    1.提交按钮: 表单数据发送到服务器提交按钮: 属性
+      type="submit"
+  -->
+  <input type="submit" value="提交按钮">
+
+  <select name="city">
+    <option value="bj">北京</option>
+    <option value="sh">上海</option>
+    <option value="gz">广州</option>
+    <option value="sz">深圳</option>
+    <option value="hz">杭州</option>
+  </select>
+</form>
+</body>
+</html>
